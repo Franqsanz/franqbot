@@ -19,7 +19,7 @@ const app = new App({
       await app.client.chat.postMessage({
         token: context.botToken,
         channel: event.channel,
-        text: `Hola <@${event.user}>, Gracias por mensionarme`
+        text: `Hola <@${event.user}>, Gracias por mencionarmé`
       });
     } catch (error) {
       console.log(error);
